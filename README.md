@@ -2,6 +2,7 @@
 ## Environment
 * CUDA toolkits installed.
 * CUDA added to PATH.
+* [fmt](https://github.com/fmtlib/fmt) installed.
 ## Step By Step
 [NVRTC](https://docs.nvidia.com/cuda/nvrtc/index.html) is used for JIT code generation.
 [jitify.hpp](./jitify.hpp) is a header-only template [library](https://github.com/NVIDIA/jitify) encapsulating NVRTC.
